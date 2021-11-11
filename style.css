@@ -1,0 +1,129 @@
+body{
+    margin: 8px 64px;
+    background-color: #ededed;;
+}
+.pseudoelement{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: left;
+    margin: 0px 400px;
+    background-color: white;
+    padding: 1rem 2rem;
+}
+h1, h2, h3{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 5000;
+    text-transform: uppercase;
+}
+h1{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.conteiter{
+    background: #fff;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 22%);
+    height: 700px;
+    border: 1px solid black;
+    width: 400px;
+}
+a{
+    color: rgb(132, 197, 66);
+    text-decoration: none;
+    font-weight: 500;
+}
+.psa1::after{
+    content: ">";
+    margin: 0px 4px;
+    transition: 0.4s;
+}
+.psa1:hover::after{
+    margin: 0px 8px;
+    transition: 0.4s;
+}
+.psa2::after{
+    background: url(http://www.candicendexter.com/images/long-arrow-alt-right-solid.svg) center center no-repeat;
+    content: "";
+    width: 21px;
+    height: 18px;
+    line-height: 19px;
+    overflow: hidden;
+    position: absolute;
+    left: 854px;
+    top: 235px;
+}
+.psa2::before{
+    background: url(http://www.candicendexter.com/images/hexagon.svg) center top no-repeat;
+    content: " ";
+    width: 30px;
+    height: 35px;
+    overflow: hidden;
+    position: absolute;
+    left: 850px;
+    top: 227px;
+    transition: 0.5s;
+}
+.psa2:hover::before{
+    transform: rotate(45deg);
+    transition: 0.5s;
+}
+.psa3::after{
+    content: ".(HTTP//:.GOOGLE.COM).";
+    color: black;
+    font-family:  "Open Sans", sans-serif;
+}
+.linka1{
+    color: rgb(132, 197, 66); 
+    font-size: 15px;
+}
+.linka2{
+    color: blue;
+    font-size: 15px;
+}
+.actiona1:hover{
+    font-weight: 800;
+}
+.actional2:active{
+    color: blue; 
+}
+.actional3:focus{
+    color:white;
+}
+.check{
+    height: 20px;
+    width: 20px;
+    font-size: 1rem;
+}
+.child{
+    color: rgb(132, 197, 66); 
+}
+li:first-child{
+    font-weight: bold;
+}
+li:only-child{
+    margin: 5px 0px;
+}
+li:last-child{
+    color: blue;
+}
+.typeofp:first-child{
+    color: rgb(132, 197, 66); 
+    font-weight: bold;
+}
+.typeofp:last-child{
+    color: blue;
+}
+.nthchild{
+    font-weight: 800;
+}
+.nthchildp:nth-child(2){
+    color:blue;
+}
+.nthchildp:nth-child(5){
+    color:blue;
+}
