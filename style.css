@@ -11,7 +11,7 @@ body{
     background-color: white;
     padding: 1rem 2rem;
 }
-h1, h2, h3{
+h1, h2{
     font-family: "Open Sans", sans-serif;
     font-weight: 5000;
     text-transform: uppercase;
@@ -54,8 +54,8 @@ a{
     line-height: 19px;
     overflow: hidden;
     position: absolute;
-    left: 854px;
-    top: 235px;
+    left: 874px;
+    top: 259px;
 }
 .psa2::before{
     background: url(http://www.candicendexter.com/images/hexagon.svg) center top no-repeat;
@@ -64,8 +64,8 @@ a{
     height: 35px;
     overflow: hidden;
     position: absolute;
-    left: 850px;
-    top: 227px;
+    left: 870px;
+    top: 250px;
     transition: 0.5s;
 }
 .psa2:hover::before{
@@ -121,9 +121,21 @@ li:last-child{
 .nthchild{
     font-weight: 800;
 }
-.nthchildp:nth-child(2){
+.pnthchild:nth-child(2){
     color:blue;
 }
-.nthchildp:nth-child(5){
+.pnthchild:nth-child(5){
     color:blue;
+}
+.nthtype:nth-of-type(2){
+    color: red;
+}
+.nthtype:nth-of-type(4){
+    color: red;
+}
+.nthtype:nth-of-type(6){
+    color: red;
+}
+.notp{
+    font-size: 13px;
 }
